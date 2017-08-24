@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<style>
+        #box{
+            width: 100px;
+            height: 100px;
+            background: red;
+        }
+    </style>-->
+    <!--css样式-->
+    <!--<style>
+    .box1,.box2{
+        width:100px;
+        height: 100px;
+    }
+    .box1{
+        background: red;
+    }
+    .box2{
+        background: blue;
+    }
+    </style>-->
+    <!--div样式-->
+    <!--<style>
+        .yellow{
+            background: yellow;
+        }
+        .green{
+            background: green;
+        }
+        .pink{
+            background: pink;
+        }
+   </style>
+    <script>
+        window.onload = function () {
+            var oBtn1 = document.getElementById("btn1");
+            var oBtn2 = document.getElementById("btn2");
+            var oBtn3 = document.getElementById("btn3");
+            var oBody = document.getElementById("body");
+
+            oBtn1.onclick = function () {
+                oBody.className = "yellow";
+            }
+            oBtn2.onclick = function () {
+                oBody.className = "green";
+            }
+            oBtn3.onclick = function () {
+                oBody.className = "pink";
+            }
+        }
+    </script>-->
+    <!--hao123换肤-->
+    <!--<style>
+        .yellow{
+            background: yellow;
+        }
+        .green{
+            background: green;
+        }
+        .pink{
+            background: pink;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var oBtn1 = document.getElementById("btn1");
+            var oBtn2 = document.getElementById("btn2");
+            var oBtn3 = document.getElementById("btn3");
+            var oBody = document.body;
+
+            oBtn1.onclick = function () {
+                oBody.className = "yellow";
+            }
+            oBtn2.onclick = function () {
+                oBody.className = "green";
+            }
+            oBtn3.onclick = function () {
+                oBody.className = "pink";
+            }
+        }
+    </script>-->
+    <!--hao123换肤1-->
+    <!--<script>
+        window.onload = function () {
+            var oBtn1 = document.getElementById("btn1");
+            var oBtn2 = document.getElementById("btn2");
+            var oBtn3 = document.getElementById("btn3");
+            var oBody = document.body;
+
+            oBtn1.onclick = function () {
+                oBody.style.background = "red";
+            }
+            oBtn2.onclick = function () {
+                oBody.style.background = "green";
+            }
+            oBtn3.onclick = function () {
+                oBody.style.background = "blue";
+            }
+        }
+    </script>-->
+    <!--hao123换肤2-->
+    <!--<link rel="stylesheet" type="text/css" href="" id="link">
+    <script>
+        window.onload = function () {
+            var oBtn1 = document.getElementById("btn1");
+            var oBtn2 = document.getElementById("btn2");
+            var oBtn3 = document.getElementById("btn3");
+            var oLink = document.getElementById("link");
+
+            oBtn1.onclick = function () {
+                oLink.href = "skin1.css";
+            }
+            oBtn2.onclick = function () {
+                oLink.href = "skin2.css";
+            }
+            oBtn3.onclick = function () {
+                oLink.href = "skin3.css";
+            }
+        }
+    </script>-->
+    <!--hao123换肤3-->
+    <!--<style>
+        #box{
+            width:100px;
+            height: 200px;
+            background: blue;
+            display: none;
+        }
+    </style>-->
+    <!--百度登录-->
+    <!--<style>
+        #box{
+            width: 100px;
+            height: 200px;
+            background: blue;
+            display: none;
+        }
+    </style>
+    <script>
+        window.onload = function(){
+            var oBtn = document.getElementById('btn');
+            var oDiv = document.getElementById('box');
+
+            oBtn.onclick = function () {
+                alert("1");
+            }
+        }
+    </script>-->
+    <!--必应登录-->
+    <!--<style>
+        #box{
+            width: 100px;
+            height: 200px;
+            background: blue;
+            display: none;
+        }
+    </style>
+    <script>
+        window.onload = function(){
+            var oBtn = document.getElementById('btn');
+            var oDiv = document.getElementById('box');
+
+            oBtn.onclick = function () {
+                if(oDiv.style.display == 'block'){
+                    oDiv.style.display = 'none';
+                }else{
+                    oDiv.style.display = 'block';
+                }
+            }
+        }
+    </script>-->
+    <!--必应登录1-->
+    <!--<style>
+        #box{
+            width: 100px;
+            height: 200px;
+            background: blue;
+            display: none;
+        }
+    </style>
+    <script>
+        window.onload = function(){
+            var oBtn = document.getElementById('btn');
+            var oDiv = document.getElementById('box');
+
+            oBtn.onclick = function () {
+                alert(oDiv.style.display);
+                if(oDiv.style.display == 'none'){
+                    oDiv.style.display = 'block';
+                }else{
+                    oDiv.style.display = 'none';
+                }
+            }
+        }
+    </script>-->
+    <!--必应登录2-->
+    <!--<style>
+        #box{
+            width: 150px;
+            height: 150px;
+            background: yellow;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var oBox = document.getElementById("box");
+
+            oBox.onclick = function () {
+                oBox.style.background = 'blue';
+            }
+
+        }
+    </script>-->
+    <!--点击div变色-->
+    <!--<style>
+        #box{
+            width: 150px;
+            height: 150px;
+            background: yellow;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var oBox = document.getElementById("box");
+
+            oBox.onclick = function () {
+                this.style.background = 'blue';
+            }
+
+        }
+    </script>-->
+    <!--点击div变色1-->
+    <!--<style>
+        div{
+            width: 100px;
+            height: 100px;
+            background: #222;
+            float: left;
+            margin-right: 10px;
+        }
+    </style>
+    <script>
+        window.onload = function(){
+            var aDiv = document.getElementsByTagName('div');
+
+            alert(aDiv.length);
+        }
+    </script>-->
+    <!--点击一组div变色-->
+    <!--<style>
+        div{
+            width: 100px;
+            height: 100px;
+            background: #678;
+            float: left;
+            margin-right: 10px;
+            color: pink;
+            font-size: 50px;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var aDiv = document.getElementsByTagName('div');
+            aDiv[0].onclick = function(){
+                alert('1');
+            }
+
+        }
+    </script>-->
+    <!--点击一组div变色1-->
+    <!--<style>
+        div{
+            width: 100px;
+            height: 100px;
+            background: #678;
+            float: left;
+            margin-right: 10px;
+            color: pink;
+            font-size: 50px;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var aDiv = document.getElementsByTagName('div');
+            aDiv[1].onclick = function(){
+                this.style.background = 'red'
+            }
+        }
+    </script>-->
+    <!--点击一组div变色2-->
+    <!--<script>
+        var i = 0;
+        //i++
+        i = i + 1;
+        alert(i);
+    </script>-->
+    <!--i++-->
+   <!-- <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background: #678;
+            float: left;
+            margin-right: 10px;
+            color:blue;
+            font-size: 50px;
+        }
+    </style>
+    <script>
+        window.onload = function(){
+            var aDiv = document.getElementsByTagName('div');
+
+            aDiv[0].onclick = function(){
+                this.style.background = 'red';
+            }
+            aDiv[1].onclick = function(){
+                this.style.background = 'red';
+            }
+            aDiv[2].onclick = function(){
+                this.style.background = 'red';
+            }
+        }
+    </script>-->
+    <!--点击一组div变色3-->
+    <!--<style>
+        div {
+            width: 100px;
+            height: 100px;
+            background: #666;
+            float: left;
+            margin-right:10px;
+            color: #fff;
+            font-size: 40px;
+        }
+    </style>
+    <script>
+        window.onload = function(){
+            var aDiv = document.getElementsByTagName('div');
+
+            for(var i = 0; i < aDiv.length; i++){
+                //alert(i);//0,1,2
+                aDiv[i].onclick = function(){
+                    this.style.background = 'red';
+                }
+            }
+        }
+    </script>-->
+    <!--点击一组div变色4-->
+   <!-- <style>
+        #box {
+            width: 100px;
+            height: 100px;
+            background: red;
+        }
+    </style>
+    <script>
+
+    </script>-->
+    <!--改变div的样式-->
+    <!--<style>
+        #box {
+            width: 100px;
+            height: 200px;
+            background:red;
+        }
+    </style>-->
+    <!--改变样式-->
+</head>
+<body>
+<!--<div id="box"></div>-->
+<!--css样式-->
+<!--<div class="box1"></div>
+<div class="box2"></div>-->
+<!--div样式-->
+<!--<body class = "pink" id="body">
+<input type="button" value="皮肤1" id="btn1"/>
+<input type="button" value="皮肤2" id="btn2"/>
+<input type="button" value="皮肤3" id="btn3"/>-->
+<!--hao123换肤-->
+<!--<body class = "pink">
+<input type="button" value="皮肤1" id="btn1"/>
+<input type="button" value="皮肤2" id="btn2"/>
+<input type="button" value="皮肤3" id="btn3"/>
+</body>-->
+<!--hao123换肤1-->
+<!--<input type="button" value="皮肤1" id="btn1"/>
+<input type="button" value="皮肤2" id="btn2"/>
+<input type="button" value="皮肤3" id="btn3"/>-->
+<!--hao123换肤2-->
+<!--<input type="button" value="皮肤1" id="btn1"/>
+<input type="button" value="皮肤2" id="btn2"/>
+<input type="button" value="皮肤3" id="btn3"/>-->
+<!--hao123换肤3-->
+<!--<input type="button" value="登录" onclick="document.getElementById('box').style.display='block';"/>
+<div id="box"></div>-->
+<!--百度登录-->
+<!--<input type="button" value="登录" id="btn"/>
+<div id="box"></div>-->
+<!--必应登录-->
+<!--<input type="button" value="登录" id="btn" />
+<div id="box"></div>-->
+<!--必应登录1-->
+<!--<input type="button" value="登录" id="btn" />
+<div id="box"></div>-->
+<!--必应登录2-->
+<!--<div id="box"></div>-->
+<!--点击div变色-->
+<!--<div id="box">我是一个div</div>-->
+<!--点击div变色1-->
+<!--<div></div>
+<div></div>
+<div></div>-->
+<!--点击一组div变色-->
+<!--<div>1</div>
+<div>2</div>
+<div>3</div>-->
+<!--点击一组div变色1-->
+<!--<div>1</div>
+<div>2</div>
+<div>3</div>-->
+<!--点击一组div变色2-->
+<!--<input type="button" value="按钮"
+       onclick="alert('哈哈哈哈')"/>-->
+<!--js的第一个小程序-->
+<!--<div>1</div>
+<div>2</div>
+<div>3</div>-->
+<!--点击一组div变色3-->
+<!--<div>1</div>
+<div>2</div>
+<div>3</div>-->
+<!--点击一组div变色4-->
+<!--<script>
+    var a = 15;
+    alert(a);
+</script>-->
+<!--赋值-->
+<!--<div id="box" onmouseover="document.getElementById('box').style.width='200px';document.getElementById('box').style.height='200px';document.getElementById('box').style.background='green';" onmouseout="document.getElementById('box').style.width='100px';document.getElementById('box').style.height='100px';document.getElementById('box').style.background='red';"></div>-->
+<!--改变div的样式-->
+<!--<input type="button" value="变宽" onclick="document.getElementById('box').style.width='300px';"/>
+<div id="box"></div>-->
+<!--改变样式-->
+</body>
+</html>
